@@ -6,7 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `bai 1`
 1.Javascript algorithm
-1.1
+###
+###`1.1`
 `function mostCommonLength(strings) {
   let lengths = {};
   for (let i = 0; i < strings.length; i++) {
@@ -53,52 +54,48 @@ function assertArrayEquals(actual, expected) {
 }
 
 testMostCommonLength();`
-1.2
-`function sumTopTwoIntegers(arr) {
-  // Ensure that the array has at least two elements
+
+###
+###`1.2`
+```function sumTopTwoIntegers(arr) {
+
   if (arr.length < 2) {
     throw new Error('Array must have at least two elements');
   }
 
-  // Sort the array in descending order
   const sorted = arr.sort((a, b) => b - a);
 
-  // Compute the sum of the top two elements
   return sorted[0] + sorted[1];
 }
 
+
 function testSumTopTwoIntegers() {
-  // Test case with positive integers
   let arr = [1, 4, 2, 3, 5];
   let expected = 9;
   let result = sumTopTwoIntegers(arr);
   assertEqual(result, expected, arr);
 
-  // Test case with negative integers
   arr = [-3, -1, -5, -2, -4];
   expected = -3;
   result = sumTopTwoIntegers(arr);
   assertEqual(result, expected, arr);
 
-  // Test case with mixed positive and negative integers
   arr = [1, -2, 3, -4, 5];
   expected = 6;
   result = sumTopTwoIntegers(arr);
   assertEqual(result, expected, arr);
 
-  // Test case with duplicate integers
+ 
   arr = [1, 4, 2, 3, 4];
   expected = 8;
   result = sumTopTwoIntegers(arr);
   assertEqual(result, expected, arr);
 
-  // Test case with two identical integers
   arr = [1, 1];
   expected = 2;
   result = sumTopTwoIntegers(arr);
   assertEqual(result, expected, arr);
 
-  // Test case with an array of length 1
   arr = [1];
   try {
     sumTopTwoIntegers(arr);
@@ -107,7 +104,6 @@ function testSumTopTwoIntegers() {
     console.log('Test passed: array has length 1');
   }
   
-  // Test case with an empty array
   arr = [];
   try {
     sumTopTwoIntegers(arr);
@@ -127,8 +123,9 @@ function assertEqual(actual, expected, input) {
   }
 }
 
-testSumTopTwoIntegers();`
+testSumTopTwoIntegers();
 
+```
 ### `bai 2 `
 React 
 this project is for bai2
