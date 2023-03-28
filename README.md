@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1.Javascript algorithm
 ###
 ###`1.1`
-`function mostCommonLength(strings) {
+```function mostCommonLength(strings) {
   let lengths = {};
   for (let i = 0; i < strings.length; i++) {
     let length = strings[i].length;
@@ -53,7 +53,8 @@ function assertArrayEquals(actual, expected) {
   }
 }
 
-testMostCommonLength();`
+testMostCommonLength();
+```
 
 ###
 ###`1.2`
