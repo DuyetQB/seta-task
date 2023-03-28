@@ -1,0 +1,48 @@
+
+.wrap-input {
+    position: relative;
+    margin-bottom: 30px;
+    .icon-search {
+        width:24px;
+        top: 26px;
+        position: absolute;
+        z-index: 3;
+        left: 12px;
+    }
+
+    .icon {
+        
+        width:24px;
+        height:24px;
+        position: absolute;
+        top: 21px;
+        right: 12px;
+        border-radius: 9999px;
+        padding: 5px;
+
+        &:hover {
+            background-color: rgba(99, 115, 129, 0.08);
+
+        }
+        .icon-cancel {
+            fill:grey;
+            width:24px;
+            z-index: 3;
+            cursor: pointer;
+        }
+    }
+    .input {
+
+        text-indent: 33px;
+    }
+}
+.input {
+    padding: 10px;
+    margin: 10px 0px;
+    position: relative;
+    width: 100%;
+    border-radius: 6px;
+    height: 33px;
+    border: 1px solid grey;
+    font-size: 17px;
+}
